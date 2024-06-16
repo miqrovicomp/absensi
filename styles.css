@@ -1,0 +1,33 @@
+.button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.card {
+  width: 271px;
+  height: 606px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+/* Make card responsive */
+@media (max-width: 300px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
